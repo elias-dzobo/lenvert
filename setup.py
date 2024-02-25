@@ -10,4 +10,6 @@ setup(
         "numpy>=1.10",
         "pandas"
     ],
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
 )
