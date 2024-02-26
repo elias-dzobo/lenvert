@@ -5,6 +5,7 @@ setup(
     description= "A package for converting imperial lengths and weights",
     name= "lenvert",
     version="0.1.0",
+    url = "https://github.com/elias-dzobo/lenvert", 
     packages= find_packages(include=["lenvert", "lenvert.*"]),
     install_requires=[
         "numpy>=1.10",
