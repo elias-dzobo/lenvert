@@ -1,7 +1,7 @@
 """User-facing functions."""
 # Import the check_units function
-from impyrial.utils import check_units
-from impyrial.length.core import (
+from lenvert.utils import check_units
+from lenvert.length.core import (
     UNITS,
     inches_to_feet,
     inches_to_yards,

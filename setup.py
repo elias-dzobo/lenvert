@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 setup(
     author= "Elias Dzobo",
     description= "A package for converting imperial lengths and weights",
-    name= "impyrial",
+    name= "lenvert",
     version="0.1.0",
-    packages= find_packages(include=["impyrial", "impyrial.*"]),
+    packages= find_packages(include=["lenvert", "lenvert.*"]),
     install_requires=[
         "numpy>=1.10",
         "pandas"

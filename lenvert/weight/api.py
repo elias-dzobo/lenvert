@@ -1,7 +1,7 @@
 """User-facing functions."""
 import numpy as np
-from impyrial.utils import check_units
-from impyrial.weight.core import (
+from lenvert.utils import check_units
+from lenvert.weight.core import (
     UNITS,
     ounces_to_pounds,
     ounces_to_stone,
